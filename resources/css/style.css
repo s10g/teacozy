@@ -54,7 +54,6 @@ main {
 #mission {
     height: 700px;
     background-image: url("../img/img-mission-background.jpg");
-    padding-top: 70px;
     align-items: center;
 }
 
@@ -62,6 +61,11 @@ main {
     margin: auto;
     background-color: black;
     width: 100%;
+}
+
+#mission h2, #mission h4 {
+    margin: 0px;
+    padding: 10px;
 }
 
 
@@ -87,4 +91,29 @@ main {
 
 .item span {
     display: block;
+    padding: 5px;
+}
+
+#locations {
+    height: 500px;
+    background-image: url("../img/img-locations-background.jpg");
+    align-items: center;
+    padding-top: 70px;
+    margin-top: 70px;
+}
+
+.location {
+    background-color: black;
+    width: 300px;
+    padding: 10px;
+    margin: 5px 20px;
+}
+
+#contact {
+    height: 200px;
+}
+
+footer {
+    text-align: left;
+    padding-left: 20px;
 }
