@@ -104,10 +104,12 @@ main {
     width: 300px;
     padding: 10px;
     margin: 5px 20px;
+    opacity: 0.9;
 }
 
 #contact {
     height: 200px;
+    opacity: 0.9;
 }
 
 footer {
